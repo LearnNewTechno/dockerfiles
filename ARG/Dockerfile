@@ -1,4 +1,5 @@
 ARG version
+# set default version 
 FROM almalinux:${version:-9} 
 ARG name="Ravi" \
     age="44"
