@@ -1,3 +1,5 @@
 FROM almalinux:9
-ENV name="ravikumar" \
-    first_name="amireddy"
+ARG name="Ravi" \
+    age="44"
+RUN echo "name: $name, age=$age"
+CMD [ "sleep", "100"]
